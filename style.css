@@ -1,0 +1,181 @@
+@keyframes flow {
+
+	0%{
+		top: 0px;
+		left: 100px;
+	}
+	15% { 
+
+		top: 800px; 
+		left: 100px;}
+
+	30%{ 
+	 top: 1100px;
+	 left:900px; }
+
+	45%{
+		top:1400px;
+		left: 100px;
+	}
+
+	60%{
+		top: 2000px;
+	 left:900px;
+	}
+
+	75%{ top:1400px;
+		left: 100px; }
+
+	90% {
+		top: 1100px;
+	 	left:900px;
+	}
+
+	100%{
+		top:0px;
+		left: 100px;
+	}
+
+}
+
+.flow {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #d4bca4;
+
+
+	position: absolute;
+	top: 500px;
+	left: 600px;
+
+	opacity: 40%;
+
+	animation-name: flow;
+	animation-duration: 30s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+body {
+	background-color: #bc9671;
+}
+
+
+.container {
+	position: relative;
+	margin: 100px;
+	padding: 0; 
+
+}
+
+
+
+
+
+div {
+	font-family: Akzidenz-Grotesk Std , sans-serif;
+	font-size: 15px;
+	line-height:25px;
+	font-weight:bold;
+}
+
+
+
+.mainidea {
+	font-size: 50px;
+	color: darkred;
+	line-height: 40px;
+}
+
+.mainidea:hover {
+
+}
+
+
+
+.author {
+	width: 500px;
+	list-style: none;
+	border-color: black;
+	border-width: 2px;
+}
+
+
+img {
+	position: absolute;
+	top:0;
+	right:0;
+	opacity: 70%;
+}
+
+
+.jan {
+	font-weight: bold;
+}
+
+.content1 {
+	width: 700px;
+	border-color: black;
+	border-width: 2px;
+
+	position: absolute;
+	top: 850px;
+	left:  0px;
+}
+
+
+.content2 {
+	width: 600px;
+	position: absolute;
+	top: 1200px;
+	right: 0px;
+}
+
+
+
+
+.content3 {
+	width: 600px;
+
+	position: absolute;
+	top: 1500px;
+	left: 0px;
+
+}
+
+
+
+.content4 {
+	width: 600px;
+	position: absolute;
+	top: 2100px;
+	right: 0px;
+}
+
+
+
+.qs{
+	margin-bottom: 100px; 
+	width: 600px;
+	position: absolute;
+	top: 2550px;
+	left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
